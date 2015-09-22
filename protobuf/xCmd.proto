@@ -1,0 +1,8 @@
+enum Command
+{
+  SCENE_USER_CMD    = 2;
+  DATA_USER_CMD     = 3;
+
+  SCENE_RECORD_CMD  = 249;
+}
+

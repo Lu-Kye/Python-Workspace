@@ -1,0 +1,4 @@
+autoImport("SceneRecord_pb") 
+Proto_Include = { 
+	[249] = {[2] = SceneRecord_pb.RetUserDataCmd,[5] = SceneRecord_pb.UserUpdateCmd,}, 
+} 

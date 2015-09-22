@@ -1,0 +1,138 @@
+setNickname : function (value) { 
+	this._info["nickname"] = value; 
+}, 
+nickname : function () { 
+	return this._info["nickname"]; 
+}, 
+setTownID : function (value) { 
+	this._info["town_id"] = value; 
+}, 
+townID : function () { 
+	return this._info["town_id"]; 
+}, 
+setRoleID : function (value) { 
+	this._info["role_id"] = value; 
+}, 
+roleID : function () { 
+	return this._info["role_id"]; 
+}, 
+setRoleLv : function (value) { 
+	this._info["role_lv"] = value; 
+}, 
+roleLv : function () { 
+	return this._info["role_lv"]; 
+}, 
+setRoleExp : function (value) { 
+	this._info["role_exp"] = value; 
+}, 
+roleExp : function () { 
+	return this._info["role_exp"]; 
+}, 
+setVipLevel : function (value) { 
+	this._info["vip_level"] = value; 
+}, 
+vipLevel : function () { 
+	return this._info["vip_level"]; 
+}, 
+setIngot : function (value) { 
+	this._info["ingot"] = value; 
+}, 
+ingot : function () { 
+	return this._info["ingot"]; 
+}, 
+setCoins : function (value) { 
+	this._info["coins"] = value; 
+}, 
+coins : function () { 
+	return this._info["coins"]; 
+}, 
+setHeartNum : function (value) { 
+	this._info["heart_num"] = value; 
+}, 
+heartNum : function () { 
+	return this._info["heart_num"]; 
+}, 
+setPhysical : function (value) { 
+	this._info["physical"] = value; 
+}, 
+physical : function () { 
+	return this._info["physical"]; 
+}, 
+setPhysicalBuyCount : function (value) { 
+	this._info["physical_buy_count"] = value; 
+}, 
+physicalBuyCount : function () { 
+	return this._info["physical_buy_count"]; 
+}, 
+setGetHeartCount : function (value) { 
+	this._info["get_heart_count"] = value; 
+}, 
+getHeartCount : function () { 
+	return this._info["get_heart_count"]; 
+}, 
+setCoinsBuyCount : function (value) { 
+	this._info["coins_buy_count"] = value; 
+}, 
+coinsBuyCount : function () { 
+	return this._info["coins_buy_count"]; 
+}, 
+setBatchBoughtCoins : function (value) { 
+	this._info["batch_bought_coins"] = value; 
+}, 
+batchBoughtCoins : function () { 
+	return this._info["batch_bought_coins"]; 
+}, 
+setFuncKey : function (value) { 
+	this._info["func_key"] = value; 
+}, 
+funcKey : function () { 
+	return this._info["func_key"]; 
+}, 
+setPlayedKey : function (value) { 
+	this._info["played_key"] = value; 
+}, 
+playedKey : function () { 
+	return this._info["played_key"]; 
+}, 
+setTownLock : function (value) { 
+	this._info["town_lock"] = value; 
+}, 
+townLock : function () { 
+	return this._info["town_lock"]; 
+}, 
+setMissionKey : function (value) { 
+	this._info["mission_key"] = value; 
+}, 
+missionKey : function () { 
+	return this._info["mission_key"]; 
+}, 
+setMissionMaxOrder : function (value) { 
+	this._info["mission_max_order"] = value; 
+}, 
+missionMaxOrder : function () { 
+	return this._info["mission_max_order"]; 
+}, 
+setMissionLevelMaxLock : function (value) { 
+	this._info["mission_level_max_lock"] = value; 
+}, 
+missionLevelMaxLock : function () { 
+	return this._info["mission_level_max_lock"]; 
+}, 
+setHardLevelLock : function (value) { 
+	this._info["hard_level_lock"] = value; 
+}, 
+hardLevelLock : function () { 
+	return this._info["hard_level_lock"]; 
+}, 
+setQuestID : function (value) { 
+	this._info["quest_id"] = value; 
+}, 
+questID : function () { 
+	return this._info["quest_id"]; 
+}, 
+setQuestState : function (value) { 
+	this._info["quest_state"] = value; 
+}, 
+questState : function () { 
+	return this._info["quest_state"]; 
+}, 

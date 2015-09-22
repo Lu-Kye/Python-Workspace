@@ -1,0 +1,39 @@
+package Cmd;
+import "ProtoCommon.proto";
+import "xCmd.proto";
+
+// record user data
+message RecordUserData
+{
+  // base
+  optional UserBaseData base = 1;
+
+  // show
+  optional UserShowData show = 2;
+
+  // blob
+  optional bytes userData = 3;
+  optional bytes pack = 4;
+}
+
+// scene -> record
+message UserUpdateCmd
+{
+  optional Command cmd = 1 [ default = SCENE_RECORD_CMD ];
+  optional uint32 param = 2 [ default = 5 ];
+
+  optional uint64 charid = 3;
+  optional uint32 unregType = 4;
+
+  repeated UserUpdateData list = 5;
+}
+
+// record -> scene
+message RetUserDataCmd
+{
+  optional Command cmd = 1 [ default = SCENE_RECORD_CMD ];
+  optional uint32 param = 2 [ default = 2 ];
+
+  optional RecordUserData data = 3;
+}
+
