@@ -37,4 +37,8 @@ case $1 in
         export GOPATH=$p
         cd $p
         ;;
+    *)
+        p=/Users/lujian/Documents/python-workspace
+        cd $p
+        ;;
 esac
